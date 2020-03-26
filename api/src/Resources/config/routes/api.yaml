@@ -1,0 +1,8 @@
+auth: 
+    prefix: /auth
+    resource: './auth.yaml'
+
+api: 
+    resource: '.'
+    type: 'api_platform'
+    controller: App\Controller\AuthController::api

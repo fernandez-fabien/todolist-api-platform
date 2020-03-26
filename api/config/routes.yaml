@@ -1,13 +1,4 @@
-register:
-    path: /register
-    controller: App\Controller\AuthController::register
-    methods: ['POST']
-
-api: 
-    path: /api
-    controller: App\Controller\AuthController::api
-
-login_check:
-    path: /login
-    methods: ['POST']
+all: 
+    prefix: /api/v1
+    resource: '../src/Resources/config/routes/api.yaml'
 
