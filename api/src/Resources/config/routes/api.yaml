@@ -5,4 +5,3 @@ auth:
 api: 
     resource: '.'
     type: 'api_platform'
-    controller: App\Controller\AuthController::api
